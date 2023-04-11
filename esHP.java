@@ -14,6 +14,13 @@ public class esHP {
     static int a4;
 
     static void q_01(){
+        // 첫번째 문제의 답이 선언한 답과 같다면 +1(중복 방지)
+        if(QU_01.answer.equals(es_qu1)){
+            cnt++;
+            QU_01.count1++;
+        } else {
+
+        }
 
     }
 

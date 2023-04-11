@@ -21,7 +21,26 @@ class QU_01 extends esQuestion{
             System.out.println();
         } else {
             // 문제를 처음 마주한 case
-
+            Scanner s = new Scanner(System.in);
+            System.out.println();
+            esRoom.sleep(1000);
+            System.out.println("첫번째 문제에 대한 설명 설명 설명 설명");
+            System.out.println();
+            esRoom.sleep(1000);
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            System.out.println();
+            System.out.println("         문제 설명이 나타날-1번째 줄 ");
+            System.out.println("         문제 설명이 나타날-2번째 줄");
+            System.out.println("         문제 설명이 나타날-3번째 줄");
+            System.out.println("         문제 설명이 나타날-4번째 줄");
+            System.out.println();
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            System.out.println();
+            System.out.println();
+            esRoom.sleep(1000);
+            System.out.print("정답 입력 ->> ");
+            answer = s.next();
+            esHp.q_01();
         }
     }
 }
