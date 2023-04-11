@@ -33,27 +33,122 @@ public class esHP {
             System.out.println();
             System.out.println("최종 문제를 위한 숫자 하나 획득");
             System.out.println();
-            System.out.println();
-            System.out.println();
             esRoom.sleep(1000);
             cnt++;
             QU_01.count1++;
         } else {
-
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println("오답입니다 :: 체력 - 10)");
+            heart-=10;
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.printf("현재 HP:%d\n",heart);
+            esRoom.sleep(1000);
         }
 
     }
 
     static void q_02(){
-
+        if(QU_02.answer.equals(es_qu2)){
+            // 최종 조합을 위한 랜덤 숫자 생성
+            a2=esRandomNum.esrNum();
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println("정답!!");
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println();
+            System.out.println("*****************");
+            // 랜덤 숫자 1개 받아줌
+            System.out.println("*\t"+a2+"\t*");
+            System.out.println("*****************");
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println();
+            System.out.println("최종 문제를 위한 숫자 하나 획득");
+            System.out.println();
+            esRoom.sleep(1000);
+            cnt++;
+            QU_02.count2++;
+        } else {
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println("오답입니다 :: 체력 - 10)");
+            heart-=10;
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.printf("현재 HP:%d\n",heart);
+            esRoom.sleep(1000);
+        }
     }
 
     static void q_03(){
-
+        if(QU_03.answer.equals(es_qu3)){
+            // 최종 조합을 위한 랜덤 숫자 생성
+            a3=esRandomNum.esrNum();
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println("정답!!");
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println();
+            System.out.println("*****************");
+            // 랜덤 숫자 1개 받아줌
+            System.out.println("*\t"+a3+"\t*");
+            System.out.println("*****************");
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println();
+            System.out.println("최종 문제를 위한 숫자 하나 획득");
+            System.out.println();
+            esRoom.sleep(1000);
+            cnt++;
+            QU_03.count3++;
+        } else {
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println("오답입니다 :: 체력 - 10)");
+            heart-=10;
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.printf("현재 HP:%d\n",heart);
+            esRoom.sleep(1000);
+        }
     }
 
     static void q_04(){
-
+        if(QU_04.answer.equals(es_qu4)){
+            // 최종 조합을 위한 랜덤 숫자 생성
+            a4=esRandomNum.esrNum();
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println("정답!!");
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println();
+            System.out.println("*****************");
+            // 랜덤 숫자 1개 받아줌
+            System.out.println("*\t"+a4+"\t*");
+            System.out.println("*****************");
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println();
+            System.out.println("최종 문제를 위한 숫자 하나 획득");
+            System.out.println();
+            esRoom.sleep(1000);
+            cnt++;
+            QU_04.count4++;
+        } else {
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.println("오답입니다 :: 체력 - 10)");
+            heart-=10;
+            esRoom.sleep(1000);
+            System.out.println();
+            System.out.printf("현재 HP:%d\n",heart);
+            esRoom.sleep(1000);
+        }
     }
 
 }
