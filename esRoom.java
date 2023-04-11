@@ -63,4 +63,7 @@ public class esRoom {
 
 
     }
+
+    public static void sleep(int i) {
+    }
 }
