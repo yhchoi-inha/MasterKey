@@ -1,3 +1,4 @@
+// #문제의 답 및 정답,오답의 경우 분기 처리가 될 파일입니다.
 public class esHP {
     protected static int heart=50; // 게임 기회 세팅(임의 값 50)
 
@@ -12,19 +13,19 @@ public class esHP {
     static int a3;
     static int a4;
 
-    static void question_01(){
+    static void q_01(){
 
     }
 
-    static void question_02(){
+    static void q_02(){
 
     }
 
-    static void question_03(){
+    static void q_03(){
 
     }
 
-    static void question_04(){
+    static void q_04(){
 
     }
 
