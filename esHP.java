@@ -2,10 +2,10 @@
 public class esHP {
     protected static int heart=50; // 게임 기회 세팅(임의 값 50)
 
-    static String es_qu1 = "1번 문제의 답";
-    static String es_qu2 = "2번 문제의 답";
-    static String es_qu3 = "3번 문제의 답";
-    static String es_qu4 = "4번 문제의 답";
+    static String es_qu1 = "1";
+    static String es_qu2 = "2";
+    static String es_qu3 = "3";
+    static String es_qu4 = "4";
 
     static int cnt = 0; // ++
     static int a1;

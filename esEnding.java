@@ -32,7 +32,7 @@ public class esEnding {
                 System.out.println("답이 틀렸습니다.");
                 esRoom.sleep(1000);
                 System.out.printf("\n\n\n");
-                System.out.println("방 안에서 수상한 가스가 새어 나왔습니다. (체력 - 10)");
+                System.out.println("정답이 아닙니다. 기회가 소진됩니다.(체력 - 10)");
                 esRoom.sleep(1000);
                 System.out.printf("\n\n\n");
                 esHP.heart-=10;
@@ -42,10 +42,10 @@ public class esEnding {
 
                 // 기회가 전부 소진된 경우
                 if(esHP.heart == 0){
-                    esHP.sleep(1000);
+                    esRoom.sleep(1000);
                     System.out.printf("\n\n\n");
                     System.out.println("기회가 소진되었습니다. 게임을 종료합니다.");
-                    esHP.sleep(1000);
+                    esRoom.sleep(1000);
                     System.out.printf("\n\n\n");
                     System.out.println("===========================================================================");
                     System.out.printf("\n\n\n");
