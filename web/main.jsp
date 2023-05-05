@@ -43,6 +43,7 @@
 			</ol>
 			<button class="main__noti-layer__close">닫기</button>
 		</div>
+		<div class="main__dimmed"></div>
 	</div>
 </body>
 </html>

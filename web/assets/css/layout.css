@@ -33,6 +33,8 @@
   margin-top: -250px;
   background: #fff;
   border-radius: 30px;
+  z-index: 2;
+  display: none;
 }
 .main__noti-layer .title {
   position: relative;
@@ -65,4 +67,14 @@
   border-radius: 10px;
   font-weight: 600;
   font-family: "Noto Sans KR";
+}
+.main__dimmed {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }/*# sourceMappingURL=layout.css.map */
