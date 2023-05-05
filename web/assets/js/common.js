@@ -1,4 +1,6 @@
 $(function(){
+	AOS.init();
+
 	$('.main__notice-btn').on('click', function(){
 		if($(this).hasClass('active') == false){
 			$('.main__dimmed').fadeIn(300, function(){
