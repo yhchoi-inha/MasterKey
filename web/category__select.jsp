@@ -22,7 +22,7 @@
 			<a href="#" class="category__link" data-aos="fade-down" data-aos-duration=1500>
 				<img src="assets/images/main/category__office.jpg" alt="">
 			</a>
-			<a href="#" class="category__link" data-aos="fade-up" data-aos-duration=1500>
+			<a href="school__01.jsp" class="category__link" data-aos="fade-up" data-aos-duration=1500>
 				<img src="assets/images/main/category__school.jpg" alt="">
 			</a>
 		</div>
