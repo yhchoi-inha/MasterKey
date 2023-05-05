@@ -1,6 +1,10 @@
 $(function(){
-	AOS.init();
+	// AOS plugin
+	// try{
+		AOS.init();
+	// }catch(e){}
 
+	// Main
 	$('.main__notice-btn').on('click', function(){
 		if($(this).hasClass('active') == false){
 			$('.main__dimmed').fadeIn(300, function(){
@@ -18,4 +22,6 @@ $(function(){
 	$('.main__noti-layer__close, .main__dimmed').on('click', function(){
 		$('.main__notice-btn')[0].click();
 	});
+
+	// ing
 });

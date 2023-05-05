@@ -1,10 +1,14 @@
-.main{
+@mixin bg{
 	position:relative;
 	max-width:1620px;
 	height:100%;
-	margin:0 auto;
 	display:flex;
 	align-items:center;
+}
+
+// Main
+.main{
+	@include bg;
 	background:url(../images/main/main__type01.jpg) no-repeat center center;
 	background-size:cover;
 
@@ -21,7 +25,6 @@
 		position:absolute;
 		top:40px;
 		right:40px;
-		z-index:15;
 	}
 	&__noti-layer{
 		position:absolute;
@@ -78,5 +81,28 @@
 		height:100%;
 		background:rgba(0,0,0,0.5);
 		z-index:1;
+	}
+}
+
+// Category
+.category{
+	@include bg;
+	justify-content:center;
+	background:url(../images/main/category__bg.jpg) no-repeat center center;
+	background-size:cover;
+	&__title{
+		width:800px;
+		margin-right:60px;
+	}
+	&__choice{
+		img{
+			width:470px;
+		}
+	}
+	&__link{
+		display:block;
+		&:nth-child(2) {
+			margin-top:50px;
+		}
 	}
 }

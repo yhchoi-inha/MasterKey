@@ -2,7 +2,6 @@
   position: relative;
   max-width: 1620px;
   height: 100%;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   background: url(../images/main/main__type01.jpg) no-repeat center center;
@@ -21,7 +20,6 @@
   position: absolute;
   top: 40px;
   right: 40px;
-  z-index: 15;
 }
 .main__noti-layer {
   position: absolute;
@@ -77,4 +75,28 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+
+.category {
+  position: relative;
+  max-width: 1620px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/main/category__bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.category__title {
+  width: 800px;
+  margin-right: 60px;
+}
+.category__choice img {
+  width: 470px;
+}
+.category__link {
+  display: block;
+}
+.category__link:nth-child(2) {
+  margin-top: 50px;
 }/*# sourceMappingURL=layout.css.map */
