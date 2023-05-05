@@ -233,10 +233,3 @@ select::-ms-expand
 {
 	display:none;
 }
-
-.layout
-{
-	position:relative;
-	max-width:1437px;
-	margin:0 auto;
-}
