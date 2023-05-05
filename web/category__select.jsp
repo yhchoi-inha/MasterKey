@@ -11,8 +11,8 @@
 	<link rel="stylesheet" href="assets/css/common.css">
 	<link rel="stylesheet" href="assets/css/layout.css">
 </head>
-<body>
-	<div class="main">
+<body class="fade">
+	<div class="main slide-in">
 		<a href="category__select.jsp" class="main__link-btn">
 			<img src="assets/images/main/main__link-go.jpg" alt="바로가기">
 		</a>
