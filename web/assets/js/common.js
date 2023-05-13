@@ -5,45 +5,40 @@ $(function(){
 	// }catch(e){}
 
 	// Main
-	$('.main__notice-btn').on('click', function(){
-		if($(this).hasClass('active') == false){
-			$('.main__dimmed').fadeIn(300, function(){
-				$('.main__noti-layer').fadeIn(300);
-			});
-			$(this).addClass('active');
-		} else {
-			$('.main__noti-layer').fadeOut(300, function(){
-				$('.main__dimmed').fadeOut(300);
-			});
-			$(this).removeClass('active');
-		}
+	$('.main__noti-layer__close, .main__dimmed').on('click', function(){
+		$('.main__notice-btn')[0].click();
 	});
 
-	$('.main__noti-layer__close, .main__dimmed').on('click', function(){
+	// Main Layer
+	$('.main__notice-btn').on('click', function() {
+		showLayer('.layer-common--noti', '.layer-common--noti .layer-common__dimmed', this);
+	});
+	$('.layer-common--noti .layer-common__btn, .layer-common--noti .layer-common__dimmed').on('click', function() {
 		$('.main__notice-btn')[0].click();
 	});
 
 
 	// Mail Layer
 	$('.school__mail').on('click', function() {
-		showLayer('.layer-common--mail', '.layer-dimmed--mail', this);
+		showLayer('.layer-common--mail', '.layer-common--mail .layer-common__dimmed', this);
 	});
-	$('.layer-common--mail .layer-common__close, .layer-dimmed--mail').on('click', function() {
+	$('.layer-common--mail .layer-common__close, .layer-common--mail .layer-common__dimmed').on('click', function() {
 		$('.school__mail')[0].click();
 	});
 
 	// School Layer
 	$('.school__ignore').on('click', function() {
-		showLayer('.layer-common--ignore', '.layer-dimmed--ignore', this);
+		showLayer('.layer-common--ignore', '.layer-common--ignore .layer-common__dimmed', this);
 	});
-	$('.layer-common--ignore .layer-common__close, .layer-dimmed--ignore').on('click', function() {
+	$('.layer-common--ignore .layer-common__close, .layer-common--ignore .layer-common__dimmed').on('click', function() {
 		$('.school__ignore')[0].click();
 	});
 
 	function showLayer(layerClass, dimmedClass, trigger) {
 		if ($(trigger).hasClass('active') == false) {
+			$(layerClass).fadeIn();
 			$(dimmedClass).fadeIn(300, function() {
-				$(layerClass).fadeIn(300).css('display', 'flex');
+				$(layerClass).fadeIn(300);
 			});
 			$(trigger).addClass('active');
 		} else {

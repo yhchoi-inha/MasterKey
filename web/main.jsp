@@ -20,16 +20,19 @@
 				</g>
 			</svg>
 		</button>
-		<div class="main__noti-layer">
-			<div class="title">게임 전 주의사항</div>
-			<ol class="clearfix list">
-				<li class="list__item">1. ※로 시작하는 지문은 게임 진행에 있어 정말 중요한 공지사항입니다.</li>
-				<li class="list__item">2. 주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222요요요욘</li>
-				<li class="list__item">3. ※ 주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222</li>
-				<li class="list__item">4. ※ 주의사항 4444444 게임전게임전 게임전 게임전 게임전 게임전 게임전  게임전 </li>
-				<li class="list__item">5. 주의사항 555 마지막 마지막마지막 마지막 마지막  </li>
-			</ol>
-			<button class="main__noti-layer__close">닫기</button>
+		<div class="layer-common layer-common--noti">
+			<div class="layer-common__dimmed"></div>
+			<div class="layer-common__box main__noti-layer">
+				<div class="title">게임 전 주의사항</div>
+				<ol class="clearfix list">
+					<li class="list__item">1. ※로 시작하는 지문은 게임 진행에 있어 정말 중요한 공지사항입니다.</li>
+					<li class="list__item">2. 주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222요요요욘</li>
+					<li class="list__item">3. ※ 주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222주의사항 222</li>
+					<li class="list__item">4. ※ 주의사항 4444444 게임전게임전 게임전 게임전 게임전 게임전 게임전  게임전 </li>
+					<li class="list__item">5. 주의사항 555 마지막 마지막마지막 마지막 마지막  </li>
+				</ol>
+				<button class="layer-common__btn">닫기</button>
+			</div>
 		</div>
 		<div class="main__dimmed"></div>
 	</div>

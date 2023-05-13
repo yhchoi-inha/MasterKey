@@ -14,20 +14,24 @@
 			</div>
 		</div>
 	</div>
-	<div class="layer-dimmed layer-dimmed--mail"></div>
-	<div class="layer-dimmed layer-dimmed--ignore"></div>
 	<div class="layer-common layer-common--mail">
-		<h2 class="layer-common__title">[메일 획득]<br /> 아이템 코드 : <strong>658</strong></h2>
-		<p class="layer-common__text">"ㄷㅁㄱㄱ"<br /> "5남240"</p>
-		<button class="layer-common__close">
-			<img src="assets/images/main/layer__close.png" alt="닫기">
-		</button>
+		<div class="layer-common__dimmed"></div>
+			<div class="layer-common__box">
+			<h2 class="layer-common__title">[메일 획득]<br /> 아이템 코드 : <strong>658</strong></h2>
+			<p class="layer-common__text">"ㄷㅁㄱㄱ"<br /> "5남240"</p>
+			<button class="layer-common__close">
+				<img src="assets/images/main/layer__close.png" alt="닫기">
+			</button>
+		</div>
 	</div>
 	<div class="layer-common layer-common--ignore">
-		<h2 class="layer-common__title">무시하면 안될 것 같다.<br /></h2>
-		<p class="layer-common__text">너무 궁금하다.</p>
-		<button class="layer-common__close">
-			<img src="assets/images/main/layer__close.png" alt="닫기">
-		</button>
+		<div class="layer-common__dimmed"></div>
+		<div class="layer-common__box">
+			<h2 class="layer-common__title">무시하면 안될 것 같다.<br /></h2>
+			<p class="layer-common__text">너무 궁금하다.</p>
+			<button class="layer-common__close">
+				<img src="assets/images/main/layer__close.png" alt="닫기">
+			</button>
+		</div>
 	</div>
 <%@ include file="include/footer.jsp" %>

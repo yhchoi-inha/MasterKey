@@ -5,14 +5,25 @@
 }
 @mixin layer{
 	position:absolute;
+	z-index:2;
+	width:100%;
+	display:none;
+}
+@mixin layerBox{
+	position:fixed;
 	top:50%;
 	left:50%;
-	transform:translateX(-50%);
-	margin-top:-250px;
+	transform:translate(-50%, -50%);
 	background:#fff;
 	border-radius:30px;
-	z-index:2;
-	display:none;
+	z-index:3;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 20px;
+	min-width:400px;
+	min-height:400px;
 }
 @mixin dimmed{
 	display:none;
@@ -49,12 +60,13 @@
 	}
 	&__noti-layer{
 		@include layer;
+		display:block !important;
 		width:500px;
 		height:500px;
 		.title{
 			position:relative;
 			width:100%;
-			padding:20px 15px;
+			padding:0 15px 20px;
 			border-bottom:1px solid #eee;
 			text-align:center;
 			font-family:'Noto Sans KR';
@@ -68,20 +80,6 @@
 				margin-bottom:10px;
 				line-height:1.45
 			}
-		}
-		&__close{
-			position:absolute;
-			bottom:45px;
-			left:50%;
-			transform:translateX(-50%);
-			width:250px;
-			height:55px;
-			background:#d13838;
-			color:#fff;
-			font-size:22px;
-			border-radius:10px;
-			font-weight:600;
-			font-family:'Noto Sans KR';
 		}
 	}
 	&__dimmed{
@@ -156,8 +154,6 @@
 // layer
 .layer-common{
 	@include layer;
-	width:400px;
-	height:400px;
 	flex-flow:column wrap;
 	justify-content:center;
 	align-items:center;
@@ -174,7 +170,20 @@
 		right:22px;
 		width:25px;
 	}
-}
-.layer-dimmed{
-	@include dimmed;
+	&__btn{
+		width:250px;
+		height:55px;
+		background:#d13838;
+		color:#fff;
+		font-size:22px;
+		border-radius:10px;
+		font-weight:600;
+		font-family:'Noto Sans KR';
+	}
+	&__box{
+		@include layerBox;
+	}
+	&__dimmed{
+		@include dimmed;
+	}
 }
