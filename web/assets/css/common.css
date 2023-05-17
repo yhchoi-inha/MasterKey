@@ -241,7 +241,7 @@ select::-ms-expand
 	display:none;
 }
 
-/* .slide-in {
+.slide-in {
 	animation: change 0.5s ease forwards;
 }
 
@@ -254,4 +254,4 @@ select::-ms-expand
 	to {
 		transform: translateX(0%);
 	}
-} */
+}

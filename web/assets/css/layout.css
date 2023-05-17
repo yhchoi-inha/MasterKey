@@ -124,6 +124,10 @@
   color: #fff;
   margin: 0 5px;
   border-radius: 15px;
+  transition: all 0.3s;
+}
+.school__btns > *:hover {
+  background: #14145e;
 }
 
 .layer-common {
@@ -158,6 +162,38 @@
   border-radius: 10px;
   font-weight: 600;
   font-family: "Noto Sans KR";
+}
+.layer-common__link {
+  margin-top: 20px;
+  width: 150px;
+  padding: 16px 10px;
+  background: #1b1b91;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.layer-common__chk {
+  margin-top: 30px;
+  border: 0;
+  border-bottom: 1px solid #000;
+  color: #000;
+  width: 300px;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.layer-common__submit {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  font-size: 0;
+  text-indent: -9999px;
+}
+.layer-common__answer {
+  margin-top: 20px;
+  color: rgb(152, 24, 24);
+  font-size: 18px;
 }
 .layer-common__box {
   position: fixed;
