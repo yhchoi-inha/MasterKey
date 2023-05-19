@@ -18,14 +18,12 @@
 	<div class="layer-common layer-common--mail">
 		<div class="layer-common__dimmed"></div>
 			<div class="layer-common__box">
-				<h2 class="layer-common__title" id="copy">[메일 획득]<br /> 아이템 코드 : <strong>658</strong></h2>
-				<p class="layer-common__text">"ㄷㅁㄱㄱ"<br /> "5남240"</p>
-				<input type="hidden" id="copyText" value="아이템코드 : 658 / 'ㄷㅁㄱㄱ' / 5남240 ">
-				<a href="school__02.jsp" class="layer-common__link">다음</a>
-				<button class="layer-common__close">
-					<img src="assets/images/main/layer__close.png" alt="닫기">
-				</button>
-			</div>
+			<h2 class="layer-common__title">[메일 획득]<br /> 아이템 코드 : <strong>658</strong></h2>
+			<p class="layer-common__text">"ㄷㅁㄱㄱ"<br /> "5남240"</p>
+			<a href="school__02.jsp" class="layer-common__link">다음</a>
+			<button class="layer-common__close">
+				<img src="assets/images/main/layer__close.png" alt="닫기">
+			</button>
 		</div>
 	</div>
 	<div class="layer-common layer-common--ignore">
@@ -38,23 +36,4 @@
 			</button>
 		</div>
 	</div>
-
-	<script>
-		$(function(){
-			$('.layer-common__link').on('click', function(){
-				var te = $("#copy").text();
-
-				$('#copyText').attr('type', 'text');
-				// input에 담긴 데이터를 선택
-				$('#copyText').select();
-				
-				//  clipboard에 데이터 복사
-				var copy = document.execCommand('copy');
-				
-				// input box를 다시 hidden 처리
-				$('#copyText').attr('type', 'hidden');
-
-			});
-		});
-	</script>
 <%@ include file="include/footer.jsp" %>
