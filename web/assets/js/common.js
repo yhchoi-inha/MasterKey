@@ -33,7 +33,9 @@ $(function(){
 
 		TIMER();
 		setTimeout(function(){
-			alert("끝");
+			$('.timeout-layer__bg').fadeIn(300, function(){
+				$('.timeout-layer').fadeIn(800);
+			});
 			clearInterval(PlAYTIME);
 		},60000);
 

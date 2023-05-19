@@ -10,8 +10,8 @@
 				( ? / 무시하기)
 			</h2>
 			<div class="school__btns">
-				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>?</button>
-				<button class="layer-click school__ignore" data-aos="fade-up" data-aos-duration=1500>무시하기</button>
+				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>?</button>
+				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>무시하기</button>
 			</div>
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 				// input에 담긴 데이터를 선택
 				$('#copyText').select();
 				
-				//  clipboard에 데이터 복사
+				// clipboard에 데이터 복사
 				var copy = document.execCommand('copy');
 				
 				// input box를 다시 hidden 처리
