@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://yohan7.cafe24.com/MasterKey/web/school__02.jsp -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MasterKey__TP</title>
+	<link rel="stylesheet" href="./MasterKey__TP_files/common.css">
+	<link rel="stylesheet" href="./MasterKey__TP_files/layout.css">
+	<link rel="stylesheet" href="./MasterKey__TP_files/aos.css">
+	<script src="./MasterKey__TP_files/jquery-3.2.1.min.js.다운로드"></script>
+	<script type="text/javascript" src="./MasterKey__TP_files/aos.js.다운로드"></script>
+	<script type="text/javascript" src="./MasterKey__TP_files/common.js.다운로드"></script>
+</head>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+<div class="timer">
+	<input id="timer__count" class="timer__count" type="text" value="" readonly="">
+</div>
+	<div class="school slide-in">
+		<h1 class="school__title">Episode :: School</h1>
+		<div class="school__center">
+			<h2 class="school__sub-title aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500">
+				메일은 다 읽었고,, 이제 뭘 해야할까?
+			</h2>
+			<div class="school__btns">
+				<button class="layer-click school__mail aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">?</button>
+				<button class="layer-click school__ignore aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">정답1</button>
+			</div>
+		</div>
+	</div>
+	<div class="layer-common layer-common--mail">
+		<div class="layer-common__dimmed"></div>
+			<div class="layer-common__box">
+			<h2 class="layer-common__title">??<br> ??</h2>
+			<p class="layer-common__text">??</p>
+			<button class="layer-common__close">
+				<img src="./MasterKey__TP_files/layer__close.png" alt="닫기">
+			</button>
+		</div>
+	</div>
+	<div class="layer-common layer-common--ignore" style="display: block;">
+		<div class="layer-common__dimmed" style="display: block;"></div>
+		<div class="layer-common__box">
+			<h2 class="layer-common__title">"메일"의 강의실 주소를<br> 입력해보세요.</h2>
+			<form id="myForm" method="post">
+				<input type="text" id="answerInput" name="answer" placeholder="정답입력" class="layer-common__chk">
+				<input type="submit" class="layer-common__submit">
+			</form>
+			<button class="layer-common__close">
+				<img src="./MasterKey__TP_files/layer__close.png" alt="닫기">
+			</button>
+		</div>
+	</div>
+
+	<script>
+		document.getElementById("myForm").addEventListener("submit", function(event) {
+			event.preventDefault();
+
+			// Get the input value
+			var input = document.getElementById("answerInput").value;
+
+			// Create a new <p> tag
+			var pTag = document.createElement("p");
+			pTag.classList.add('layer-common__answer');
+
+			document.getElementById("myForm").appendChild(pTag);
+			if (input === "정답") {
+				pTag.textContent = "*정답!!!!*";
+			} else {
+				pTag.textContent = "*정답아님*";
+				setTimeout(function(){
+					pTag.remove();
+				},2000);
+			}
+		});
+</script>
+
+</body></html>
