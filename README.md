@@ -22,23 +22,8 @@
  
 -    Edit `src/pages/index.js` to see your site update in real-time!
  
-+## 네이밍 및 인코딩
-+
-+- 인코딩 : utf-8
-+- CSS 네이밍 : BEM
-+
-+
-+
-+## 명령어
-+
-+예 :
-+
-+    > yarn start
-+
-+- **develop :** 로컬 개발 서버 실행
-+- **start :** develop 과 동일
-+- **build :** 실제 서버에서 사용하는 소스 파일 생성
-+- **serve :** build 된 파일로 로컬 서버 실행
-+- **clean :** build 파일 삭제
+# 네이밍 및 인코딩
 
+- 인코딩 : utf-8
+- CSS 네이밍 : BEM
 
