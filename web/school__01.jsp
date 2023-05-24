@@ -18,7 +18,7 @@
 		<div class="layer-common__dimmed"></div>
 			<div class="layer-common__box">
 				<h2 class="layer-common__title" id="copy">[메일 확인]</h2>
-				<p class="layer-common__text">"ㄷㅁㄱㄱ"<br /> "5남240"</p>
+				<p class="layer-common__text">"5남240"</p>
 				<input type="hidden" id="copyText" value="아이템코드 : 658 / 'ㄷㅁㄱㄱ' / 5남240 ">
 				<a href="school__02.jsp" class="layer-common__link">다음</a>
 				<button class="layer-common__close">
