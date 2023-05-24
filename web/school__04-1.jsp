@@ -8,15 +8,10 @@
 				스터디라운지 문이 자물쇠로 잠겨있다.
 			</h2>
 			<div class="school__btns">
-				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>자물쇠</button>
+				<button onclick="location.href='school__04-3.jsp'" data-aos="fade-up" data-aos-duration=1500>자물쇠</button>
 				<button onclick="location.href='school__03.jsp'" data-aos="fade-up" data-aos-duration=1500>입구</button>
 			</div>
 		</div>
-	</div>
-	<div class="layer-common layer-common--mail">
-		<div class="layer-common__dimmed"></div>
-            <button onclick="location.href='school__04-3.jsp'" data-aos="fade-up" data-aos-duration=1500></button>
-	</div>
 
 	<script>
 		document.getElementById("myForm").addEventListener("submit", function(event) {

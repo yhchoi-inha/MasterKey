@@ -8,7 +8,7 @@
 			</h2>
 			<div class="school__btns">
 				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>정답 입력</button>
-				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>입구</button>
+				<button onclick="location.href='school__03.jsp'" data-aos="fade-up" data-aos-duration=1500>입구</button>
                 <button class="layer-click" data-aos="fade-up" data-aos-duration=1500>힌트</button>
 			</div>
 		</div>
@@ -16,21 +16,22 @@
 	<div class="layer-common layer-common--mail">
 		<div class="layer-common__dimmed"></div>
 			<div class="layer-common__box">
-				<h2 class="layer-common__title" id="copy">[메일 획득]<br /> 아이템 코드 : <strong>658</strong></h2>
-				<p class="layer-common__text">"ㄷㅁㄱㄱ"<br /> "5남240"</p>
-				<input type="hidden" id="copyText" value="아이템코드 : 658 / 'ㄷㅁㄱㄱ' / 5남240 ">
-				<a href="school__02.jsp" class="layer-common__link">다음</a>
+				<h2 class="layer-common__title">4자리의 숫자를 입력해주세요.</h2>
+				<form id="myForm" method="post">
+					<input type="text" id="answerInput" name="answer" placeholder="정답입력" class="layer-common__chk" autocomplete="off">
+					<input type="submit" class="layer-common__submit">
+				</form>
 				<button class="layer-common__close">
 					<img src="assets/images/main/layer__close.png" alt="닫기">
 				</button>
 			</div>
 		</div>
 	</div>
-	<div class="layer-common layer-common--ignore">
+	</div>
+	<div class="layer-common layer-common--hint">
 		<div class="layer-common__dimmed"></div>
 		<div class="layer-common__box">
-			<h2 class="layer-common__title">무시하면 안될 것 같다.<br /></h2>
-			<p class="layer-common__text">너무 궁금하다.</p>
+			<p class="layer-common__title">창문의 낙서를 위아래로 조합하면<br />4자리의 숫자를 알아낼 수 있습니다.</p>
 			<button class="layer-common__close">
 				<img src="assets/images/main/layer__close.png" alt="닫기">
 			</button>
@@ -53,6 +54,27 @@
 				$('#copyText').attr('type', 'hidden');
 
 			});
+		});
+		document.getElementById("myForm").addEventListener("submit", function(event) {
+			event.preventDefault();
+
+			var input = document.getElementById("answerInput").value;
+
+			var pTag = document.createElement("p");
+			pTag.classList.add('layer-common__answer');
+
+			document.getElementById("myForm").appendChild(pTag);
+			if (input === "5827") {
+				pTag.textContent = "*정답*";
+				setTimeout(function(){
+					location.href='school__05.jsp';
+				},1000);
+			} else {
+				pTag.textContent = "*땡*";
+				setTimeout(function(){
+					pTag.remove();
+				},2000);
+			}
 		});
 	</script>
 <%@ include file="include/footer.jsp" %>

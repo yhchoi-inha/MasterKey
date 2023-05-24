@@ -27,19 +27,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="layer-common layer-common--ignore">
-		<div class="layer-common__dimmed"></div>
-		<div class="layer-common__box">
-			<h2 class="layer-common__title">??</h2>
-			<form id="myForm" method="post">
-				<input type="text" id="answerInput" name="answer" placeholder="정답입력" class="layer-common__chk" autocomplete="off">
-				<input type="submit" class="layer-common__submit">
-			</form>
-			<button class="layer-common__close">
-				<img src="assets/images/main/layer__close.png" alt="닫기">
-			</button>
-		</div>
-	</div>
 
 	<script>
 		document.getElementById("myForm").addEventListener("submit", function(event) {

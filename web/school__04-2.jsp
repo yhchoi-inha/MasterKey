@@ -9,7 +9,7 @@
 			</h2>
 			<div class="school__btns">
 				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>낙서</button>
-				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>입구</button>
+				<button onclick="location.href='school__03.jsp'" data-aos="fade-up" data-aos-duration=1500>입구</button>
 			</div>
 		</div>
 	</div>
@@ -22,12 +22,6 @@
 					<img src="assets/images/main/layer__close.png" alt="닫기">
 				</button>
 			</div>
-		</div>
-	</div>
-	<div class="layer-common layer-common--ignore">
-		<div class="layer-common__dimmed"></div>
-		<div class="layer-common__box">
-            <a href="school__03.jsp" class="layer-common__link">입구</a>
 		</div>
 	</div>
 
