@@ -11,7 +11,7 @@
 			</h2>
 			<div class="school__btns">
 				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>?</button>
-				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>무시하기</button>
+				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>무시하기1</button>
 			</div>
 		</div>
 	</div>
