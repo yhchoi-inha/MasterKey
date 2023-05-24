@@ -8,24 +8,14 @@
 				스터디라운지 문이 자물쇠로 잠겨있다.
 			</h2>
 			<div class="school__btns">
-				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>?</button>
+				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>자물쇠</button>
 				<button onclick="location.href='school__03.jsp'" data-aos="fade-up" data-aos-duration=1500>입구</button>
 			</div>
 		</div>
 	</div>
 	<div class="layer-common layer-common--mail">
 		<div class="layer-common__dimmed"></div>
-			<div class="layer-common__box">
-				<h2 class="layer-common__title">“?” 키워드는 지문에 숨겨져 있다는 것을 명심하세요. <br/> 그렇다면 이번 “?” 키워드는 무엇일까요?</h2>
-				<form id="myForm" method="post">
-					<input type="text" id="answerInput" name="answer" placeholder="정답입력" class="layer-common__chk" autocomplete="off">
-					<input type="submit" class="layer-common__submit">
-				</form>
-				<button class="layer-common__close">
-					<img src="assets/images/main/layer__close.png" alt="닫기">
-				</button>
-			</div>
-		</div>
+            <button onclick="location.href='school__04-3.jsp'" data-aos="fade-up" data-aos-duration=1500></button>
 	</div>
 
 	<script>
