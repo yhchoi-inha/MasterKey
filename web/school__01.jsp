@@ -7,10 +7,9 @@
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>비가 엄청나게 쏟아지던 날, <br />
 				스터디라운지에서 곧 있을 객프 발표 준비를 하려고 노트북을 켰다. <br />
 				한 통의 메일이 와있었다. <br />
-				( ? / 무시하기)
 			</h2>
 			<div class="school__btns">
-				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>?</button>
+				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>메일 확인</button>
 				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>무시하기</button>
 			</div>
 		</div>
@@ -18,8 +17,8 @@
 	<div class="layer-common layer-common--mail">
 		<div class="layer-common__dimmed"></div>
 			<div class="layer-common__box">
-				<h2 class="layer-common__title" id="copy">[메일 획득]<br /> 아이템 코드 : <strong>658</strong></h2>
-				<p class="layer-common__text">"ㄷㅁㄱㄱ"<br /> "5남240"</p>
+				<h2 class="layer-common__title" id="copy">[메일 확인]</h2>
+				<p class="layer-common__text">"5남240"</p>
 				<input type="hidden" id="copyText" value="아이템코드 : 658 / 'ㄷㅁㄱㄱ' / 5남240 ">
 				<a href="school__02.jsp" class="layer-common__link">다음</a>
 				<button class="layer-common__close">
