@@ -77,7 +77,7 @@
 			if (input === "163542") {
 				pTag.textContent = "*정답*";
 				setTimeout(function(){
-					location.href='school__on.jsp';
+					location.href='school__06.jsp';
 				},1000);
 			} else {
 				pTag.textContent = "*땡*";
