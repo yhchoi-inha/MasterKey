@@ -5,10 +5,13 @@
 		<h1 class="school__title">Episode :: School</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				메일은 다 읽었고,, 이제 뭘 해야할까?
+				야근하다 그만 잠이들었는데 <br />
+				눈떠보니 어느새 새벽 1시. <br />
+				모든 불은 꺼져 있고 <br />
+				머리 맡에 놓인 메모 한 장. <br />
 			</h2>
 			<div class="school__btns">
-				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>?</button>
+				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>[메모모모]</button>
 				<%-- <button class="layer-click school__ignore" data-aos="fade-up" data-aos-duration=1500>정답1</button> --%>
 			</div>
 		</div>
