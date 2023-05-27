@@ -7,14 +7,14 @@
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>불이 켜진 강의실 안에는<br/>
             큰 모니터가 보이고, 책상 위에는 리모컨이 놓여있다.
 			</h2>
-			<div class="school__class__btns">
+			<div class="school__btns">
 				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>모니터</button>
 				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>리모컨</button>
                 <button onclick="location.href='school__07.jsp'" data-aos="fade-up" data-aos-duration=1500>1층</button>
 			</div>
 		</div>
 	</div>
-		<div class="layer-common layer-common">
+	<div class="layer-common layer-common">
 		<div class="layer-common__dimmed"></div>
 			<div class="layer-common__box">
 				<h2 class="layer-common__title">꺼져있다. 켤 방법이 있을까?</h2>
@@ -70,7 +70,7 @@
 			if (input === "리모컨>>모니터") {
 				pTag.textContent = "모니터가 켜졌습니다";
 				setTimeout(function(){
-					location.href='school__06.jsp';
+					location.href='school__07-monitor.jsp';
 				},1000);
 			} else {
 				pTag.textContent = "모니터가 켜지지 않았습니다. 다른 키워드를 사용해보세요.";
