@@ -16,11 +16,11 @@
 	background:#fff;
 	border-radius:30px;
 	z-index:3;
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: center;
-	align-items: center;
-	padding: 20px 20px;
+	display:flex;
+	flex-flow:column wrap;
+	justify-content:center;
+	align-items:center;
+	padding:35px 35px;
 	min-width:400px;
 	min-height:400px;
 }
@@ -125,6 +125,9 @@
 		font-weight:600;
 		color:#fff;
 	}
+	&__sub-title{
+		line-height:1.55
+	}
 	&__center{
 		position:absolute;
 		top:50%;
@@ -140,7 +143,7 @@
 	}
 	&__btns{
 		margin-top:35px;
-		> *{
+		> *:not(.btns-data){
 			min-width:300px;
 			padding:20px 20px 21px 20px;
 			background:#1b1b91;
@@ -153,6 +156,26 @@
 		}
 		> *:hover{
 			background:#14145e;
+		}
+		.btns-data{
+			width:110px;
+			height:110px;
+			margin:0 10px 20px;
+			color:#fff;
+			font-size:25px;
+			border-radius:15px;
+			background:#5b5bd0;
+			transition:all .3s;
+			&:hover{
+				background:#14145e;
+			}
+		}
+		.btns-reset{
+			min-width:150px;
+			background:#c63c3c;
+			&:hover{
+				background:#960a0a
+			}
 		}
 	}
 }
@@ -221,6 +244,10 @@
 	}
 	&__box{
 		@include layerBox;
+		img{
+			width:200px;
+			margin:10px 0;
+		}
 	}
 	&__dimmed{
 		@include dimmed;
@@ -275,7 +302,7 @@
 		margin:30px auto 0;
 		font-size:25px;
 		color:#fff;
-		animation: next 3s infinite;
+		animation:next 3s infinite;
 	}
 	@keyframes next {
 		0% {

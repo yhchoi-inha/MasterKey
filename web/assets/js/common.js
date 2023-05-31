@@ -33,9 +33,9 @@ $(function(){
 
 		TIMER();
 		setTimeout(function(){
-			$('.timeout-layer__bg').fadeIn(300, function(){
-				$('.timeout-layer').fadeIn(800);
-			});
+			// $('.timeout-layer__bg').fadeIn(300, function(){
+			// 	$('.timeout-layer').fadeIn(800);
+			// });
 			clearInterval(PlAYTIME);
 		},60000);
 
