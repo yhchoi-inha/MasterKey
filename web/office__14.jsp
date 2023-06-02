@@ -4,10 +4,9 @@
 	<div class="school slide-in">
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
-			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>여기는 회사. <br /><br />
-				오늘은 바쁜 월요일. <br /><br />
-				남아서 야근 좀 해볼까..? <br /><br />
-				<button onclick="location.href='office__02.jsp'" data-aos="fade-up" data-aos-duration=1500>다음</button>
+			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
+				단서를 통해 자물쇠를 열어주세요.<br /><br />
+			    <input type="text" id="answerInput" name="answer" placeholder="입력하기" class="layer-common__chk" autocomplete="off">
 			</h2>
 			
 		</div>
