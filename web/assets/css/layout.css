@@ -100,11 +100,12 @@
   line-height: 1.55;
 }
 .school__center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  height: calc(100% - 55px);
   text-align: center;
   z-index: 1;
   color: #fff;
@@ -148,6 +149,9 @@
 }
 .school__btns .btns-reset:hover {
   background: #960a0a;
+}
+.school__title-img {
+  width: 300px;
 }
 
 .layer-common {

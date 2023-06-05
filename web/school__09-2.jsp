@@ -20,6 +20,7 @@
 	<div class="layer-common layer-common--answer">
 		<div class="layer-common__dimmed"></div>
 			<div class="layer-common__box">
+				<img src="assets/images/main/key.png" alt="자물쇠 모양">
 				<div class="school__btns">
 					<button class="btns-data">L</button>
 					<button class="btns-data">R</button>

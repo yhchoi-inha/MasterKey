@@ -4,9 +4,7 @@
 	<div class="school slide-in">
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
-			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				회식 메뉴 문제 사진 <%--foodmenu.png--%>
-			</h2>
+			<img src="assets/images/main/foodmenu.png" alt="" data-aos="fade-down" data-aos-duration=1500 class="school__title-img">
 			<div class="school__btns">
 				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>정답 입력</button>
 				<%-- <button class="layer-click school__ignore" data-aos="fade-up" data-aos-duration=1500>정답1</button> --%>
