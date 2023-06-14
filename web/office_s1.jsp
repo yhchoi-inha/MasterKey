@@ -6,7 +6,7 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				<br>어?! 이게 뭐지.. 왜 회식메뉴를 적어둔 종이가 들어있지?<br>
+				<br>어?! 이게 뭐지.. 왜 회식메뉴를 적어둔 종이가 들어있지?
                 <br>옆에 결재판도 함께 놓여있다.<br>
 			</h2>
 			<div class="school__btns">

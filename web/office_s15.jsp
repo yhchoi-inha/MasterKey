@@ -6,7 +6,7 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-                <br>드디어 서랍을 열었다! 역시 서랍안에 마스터키가 있군<br>
+                <br>드디어 서랍을 열었다! 역시 서랍안에 마스터키가 있군
                 <br>얼른 이 지긋지긋한 회사를 탈츨하러 1층 출입구로 가자<br>
 			</h2>
 			<div class="school__btns">

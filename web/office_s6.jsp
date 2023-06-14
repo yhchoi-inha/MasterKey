@@ -6,7 +6,7 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				<br>일단 부장님 자리에 올려두긴 했는데..<br>
+				<br>일단 부장님 자리에 올려두긴 했는데..
 				<br>어라 근데 이게 뭐지? 인사평가표?<br>
 			</h2>
 			<div class="school__btns">

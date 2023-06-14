@@ -7,7 +7,7 @@
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
 				<img src="assets/images/main/office__dawn.png" alt="" data-aos="fade-down" data-aos-duration=1500 class="school__title-img">
-				<br><br>뭐야… 아침이잖아?<br>
+				<br><br>뭐야… 아침이잖아?
 				나.. 다시 출근해야해?<br>
 			</h2>
 			<div class="school__btns">

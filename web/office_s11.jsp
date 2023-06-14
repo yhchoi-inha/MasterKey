@@ -6,10 +6,10 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				<br>서랍이 자물쇠로 잠겨있네..<br>
+				<br>서랍이 자물쇠로 잠겨있네..
                 <br>노트북에 비밀번호 관련한 단서가 있을까? 노트북을 열어봐야겠다.<br>
 			</h2>
-					<div class="school__btns">
+			<div class="school__btns">
 				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>정답 입력</button>
                 <button onclick="location.href='office_s10.jsp'" data-aos="fade-up" data-aos-duration=1500>돌아 가기</button>
 				<%-- <button class="layer-click school__ignore" data-aos="fade-up" data-aos-duration=1500>정답1</button> --%>

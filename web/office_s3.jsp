@@ -6,7 +6,7 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				<br>종이에 적혀있는 회식 메뉴에서 하나를 결정 후 <br>
+				<br>종이에 적혀있는 회식 메뉴에서 하나를 결정 후
                 <br>결재판에 넣고 부장님 자리에 놓으세요.<br>
 			</h2>
 			<div class="school__btns">
