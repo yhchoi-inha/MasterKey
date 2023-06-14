@@ -153,6 +153,11 @@
 .school__title-img {
   width: 300px;
 }
+.school__paper {
+  background: #fff;
+  color: #000;
+  padding: 40px;
+}
 
 .layer-common {
   position: absolute;

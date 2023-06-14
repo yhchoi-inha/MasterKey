@@ -8,7 +8,9 @@
 				바로 문을 열고 들어갔는데 (끼익) (철컥) <br /><br />
 				어? 문이 잠겨 열리지 않는다. <br />
 			</h2>
-			
+			<div class="school__btns">
+				<button class="layer-click" onclick="location.href='office__04.jsp'" data-aos="fade-up" data-aos-duration=1500>다음</button>
+			</div>
 		</div>
 	</div>
 
