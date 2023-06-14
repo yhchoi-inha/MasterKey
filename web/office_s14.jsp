@@ -6,7 +6,7 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				메모장 문제 사진 <%--memo.png--%>
+				<img src="assets/images/main/office__note.png" alt="" data-aos="fade-down" data-aos-duration=1500 class="school__title-img">
 			</h2>
 			<div class="school__btns">
 				<button onclick="location.href='office_s11.jsp'" data-aos="fade-up" data-aos-duration=1500>서랍 열기</button>

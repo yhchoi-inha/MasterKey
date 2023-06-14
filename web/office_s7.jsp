@@ -5,7 +5,7 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				인사평가표 문제 사진 <%--insa.png--%>
+				<img src="assets/images/main/office__insa.png" alt="" data-aos="fade-down" data-aos-duration=1500 class="school__title-img">
 			</h2>
 			<div class="school__btns">
 				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>정답 입력</button>

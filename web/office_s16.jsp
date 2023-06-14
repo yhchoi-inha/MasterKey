@@ -6,8 +6,8 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				출입문 사진 <%--exit.png--%>
-                <br>드디어 나가는 건가?<br>
+				<img src="assets/images/main/.png" alt="" data-aos="fade-down" data-aos-duration=1500 class="school__title-img" alt="출입문 사진">
+				<br>드디어 나가는 건가?<br>
 			</h2>
 			<div class="school__btns">
 				<button onclick="location.href='office_s17.jsp'" data-aos="fade-up" data-aos-duration=1500>마스터키</button>
