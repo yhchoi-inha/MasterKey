@@ -99,6 +99,9 @@
 .school__sub-title {
   line-height: 1.55;
 }
+.school__sub-title img {
+  max-width: 1000px;
+}
 .school__center {
   display: flex;
   flex-flow: column wrap;

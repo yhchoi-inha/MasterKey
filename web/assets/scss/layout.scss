@@ -126,7 +126,10 @@
 		color:#fff;
 	}
 	&__sub-title{
-		line-height:1.55
+		line-height:1.55;
+		img{
+			max-width:1000px;
+		}
 	}
 	&__center{
 		display:flex;
