@@ -7,7 +7,7 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				<br>회식 메뉴 한우..!? 혹시 모르니 기안자는 비워둬야지..ㅎ<br>
+				<br>회식 메뉴 한우..!? 혹시 모르니 기안자는 비워둬야지..ㅎ
                 <br>일단 결재판 놓으러 부장님 자리에 가보자<br>
 			</h2>
 			<div class="school__btns">
