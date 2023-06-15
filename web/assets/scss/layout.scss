@@ -390,4 +390,17 @@
 			object-fit:cover;
 		}
 	}
-} 
+}
+
+// hint area
+.hint{
+	position:absolute;
+	top:50px;
+	left:0;
+	padding:30px;
+	color:#fff;
+	&__title{
+		font-size:30px;
+		font-weight:bold;
+	}
+}

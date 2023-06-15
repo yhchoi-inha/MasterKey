@@ -380,4 +380,16 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.hint {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  padding: 30px;
+  color: #fff;
+}
+.hint__title {
+  font-size: 30px;
+  font-weight: bold;
 }/*# sourceMappingURL=layout.css.map */
