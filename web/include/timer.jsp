@@ -7,7 +7,7 @@
 	<button class="skill__excel">Change Excel</button>
 	<button class="skill__coding">Change Coding</button>
 	<a href="#" class="skill__learn">Change Learn</a>
-	<button id="check_module" type="button" class="skill__pay">Payment for hints</button>
+	<button id="" type="button" class="skill__pay">Payment for Premium</button>
 </div>
 <div class="skill-monitor">
 	<div class="skill-monitor__excel">
@@ -76,7 +76,8 @@
 				console.log(rsp);
 				if (rsp.success) {
 					var msg = 'Payment Success.';
-					location.href='hint__collection.jsp'
+					// location.href='hint__collection.jsp'
+					$('.banner').remove();
 					
 				} else {
 					var msg = 'Payment Failed.';

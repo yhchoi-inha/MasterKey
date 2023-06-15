@@ -392,4 +392,60 @@
 .hint__title {
   font-size: 30px;
   font-weight: bold;
+}
+
+.banner {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 100px;
+}
+.banner__close {
+  position: absolute;
+  bottom: 90px;
+  right: 10px;
+  background: #fff;
+  color: #000;
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bold;
+  animation: next 3s infinite;
+}
+
+@keyframes next {
+  0% {
+    bottom: 90px;
+  }
+  10% {
+    bottom: 100px;
+  }
+  20% {
+    bottom: 90px;
+  }
+  30% {
+    bottom: 100px;
+  }
+  40% {
+    bottom: 90px;
+  }
+  50% {
+    bottom: 100px;
+  }
+  60% {
+    bottom: 90px;
+  }
+  70% {
+    bottom: 100px;
+  }
+  80% {
+    bottom: 90px;
+  }
+  90% {
+    bottom: 100px;
+  }
+  100% {
+    bottom: 90px;
+  }
 }/*# sourceMappingURL=layout.css.map */
