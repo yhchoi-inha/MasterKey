@@ -5,11 +5,10 @@
 		<h1 class="school__title">Episode :: Office</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
-				<img src="assets/images/main/두꺼비집1.png" alt="두꺼비집" /><br />  <!--사진안뜸-->
+				단서를 통해 자물쇠를 열어주세요.<br /><br />
+			    <input type="text" id="answerInput" name="answer" placeholder="입력하기" class="layer-common__chk" autocomplete="off">
 			</h2>
-			<div class="school__btns">
-				<button onclick="location.href='office__09.jsp'" data-aos="fade-up" data-aos-duration=1500>스위치 올리기</button>
-			</div>
+			
 		</div>
 	</div>
 
