@@ -26,6 +26,8 @@
 				<div class="title">게임 전 주의사항</div>
 				<ol class="clearfix list">
 					<li class="list__item">1. ※로 시작하는 지문은 게임 진행에 있어 정말 중요한 공지사항입니다.</li>
+					<li class="list__item">2. 추가 힌트가 필요하다면 결제시스템을 이용해주세요.</li>
+					<li class="list__item">3. 재미있게 즐겨주세요 ^-^</li>
 				</ol>
 				<button class="layer-common__btn layer-common__close">닫기</button>
 			</div>
