@@ -3,7 +3,7 @@
 	<div class="timeout-layer__img">
 		<img src="assets/images/main/timeout.gif" alt="">
 	</div>
-	<a href="main.jsp" class="timeout-layer__reload">Retry</a>
+	<button class="timeout-layer__reload">Retry</button>
 </div>
 
 </body>

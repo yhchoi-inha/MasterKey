@@ -5,8 +5,8 @@ $(function(){
 	// Timer
 	try{
 		const Timer=document.getElementById('timer__count');
-		let time=60000;
-		let min=1;
+		let time=180000;
+		let min=3;
 		let sec=60;
 
 		Timer.value=min+":"+'00'; 
@@ -33,11 +33,18 @@ $(function(){
 
 		TIMER();
 		setTimeout(function(){
-			// $('.timeout-layer__bg').fadeIn(300, function(){
-			// 	$('.timeout-layer').fadeIn(800);
-			// });
+			$('.timeout-layer__bg').fadeIn(300, function(){
+				$('.timeout-layer').fadeIn(800);
+			});
 			clearInterval(PlAYTIME);
 		},60000);
+
+		$('.timeout-layer__reload').on('click', function(){
+			$('.timeout-layer').fadeOut(200, function(){
+				$('.timeout-layer__bg').fadeOut(200);
+				TIMER();
+			});
+		});
 
 	}catch(e){}
 
