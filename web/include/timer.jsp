@@ -7,7 +7,7 @@
 	<button class="skill__excel">Change Excel</button>
 	<button class="skill__coding">Change Coding</button>
 	<a href="#" class="skill__learn">Change Learn</a>
-	<button id="check_module" type="button" class="skill__pay">pay test</button>
+	<button id="check_module" type="button" class="skill__pay">Payment for hints</button>
 </div>
 <div class="skill-monitor">
 	<div class="skill-monitor__excel">
@@ -75,16 +75,11 @@
 			}, function (rsp) {
 				console.log(rsp);
 				if (rsp.success) {
-					var msg = '결제가 완료되었습니다.';
+					var msg = 'Payment Success.';
 					location.href='hint__collection.jsp'
-					msg += '고유ID : ' + rsp.imp_uid;
-					msg += '상점 거래ID : ' + rsp.merchant_uid;
-					msg += '결제 금액 : ' + rsp.paid_amount;
-					msg += '카드 승인번호 : ' + rsp.apply_num;
 					
 				} else {
-					// var msg = '결제에 실패하였습니다.';
-					msg += '에러내용 : ' + rsp.error_msg;
+					var msg = 'Payment Failed.';
 				}
 				alert(msg);
 			});
@@ -117,7 +112,6 @@
 
 		$(document).keydown(function(e) {
 			var keyCode = e.keyCode || e.which;
-			console.log(keyCode);
 
 			var code = e.which ? e.which : e.keyCode;
 

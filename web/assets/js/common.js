@@ -37,12 +37,11 @@ $(function(){
 				$('.timeout-layer').fadeIn(800);
 			});
 			clearInterval(PlAYTIME);
-		},60000);
+		},180000);
 
 		$('.timeout-layer__reload').on('click', function(){
 			$('.timeout-layer').fadeOut(200, function(){
 				$('.timeout-layer__bg').fadeOut(200);
-				TIMER();
 			});
 		});
 
