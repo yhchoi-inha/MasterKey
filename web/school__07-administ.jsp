@@ -17,7 +17,8 @@
 		<div class="layer-common__dimmed"></div>
 			<div class="layer-common__box">
 				<h2 class="layer-common__title" id="copy">캐비넷 안에서 무언가 적힌 메모지를 발견했다.<br/>일단 가지고 있어야겠다.<br/>
-                <br/>[메모지 획득]<br/>“locker333”</h2>
+                <br/>[메모지 획득]<br/>
+				<img src="assets/images/main/memo.png" alt=""></h2>
 				<button class="layer-common__close">
 					<img src="assets/images/main/layer__close.png" alt="닫기">
 				</button>

@@ -9,7 +9,6 @@
 			</h2>
 			<div class="school__btns">
 				<button class="layer-click school__mail" data-aos="fade-up" data-aos-duration=1500>?</button>
-				<%-- <button class="layer-click school__ignore" data-aos="fade-up" data-aos-duration=1500>정답1</button> --%>
 			</div>
 		</div>
 	</div>

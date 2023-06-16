@@ -14,7 +14,7 @@
 	<div class="layer-common layer-common--1F">
 		<div class="layer-common__dimmed"></div>
 			<div class="layer-common__box">
-				<img src="assets/images/main/grade.png" alt="GRADE">
+				<img src="assets/images/main/printer.png" alt="">
 				<button class="layer-common__close">
 					<img src="assets/images/main/layer__close.png" alt="닫기">
 				</button>

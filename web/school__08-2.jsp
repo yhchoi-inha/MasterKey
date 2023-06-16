@@ -6,7 +6,7 @@
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>화장실로 들어갔다.<br/>
             볼일을 보고 나오는데 청소도구함 칸에 빨간색 펜으로 무언가 써져있다.<br/>청소도구함 칸은 잠겨있다.<br/><br/>
-            ⏊ x x x x ⏊</h2>
+            <img src="assets/images/main/toilet.png" alt=""></h2>
 			<div class="school__btns">
 				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>화장실</button>
 			</div>
