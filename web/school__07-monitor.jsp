@@ -7,7 +7,8 @@
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>모니터가 켜졌다.<br/>
             건물의 1층은 커피숍, 2층은 회사다. 3층은 무엇일까?<br/>
 			</h2>
-			<img src="assets/images/main/monitor.png" alt="MONITOR">
+			<br>
+			<img src="assets/images/main/monitor.png" alt="MONITOR" class="school__title-img">
 			<div class="school__btns">
 				<button class="layer-click" data-aos="fade-up" data-aos-duration=1500>정답 입력</button>
 			</div>

@@ -6,10 +6,10 @@
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>
 				단서획득! <br /><br />
-				1  8
+				1,8
 			</h2>
 			<div class="school__btns">
-				<button onclick="location.href='office__09.jsp'" data-aos="fade-up" data-aos-duration="1500">이전</button>
+				<button onclick="location.href='office__04s.jsp'" data-aos="fade-up" data-aos-duration="1500">이전</button>
 			</div>
 		</div>
 	</div>

@@ -5,7 +5,7 @@
 		<h1 class="school__title">Episode :: School</h1>
 		<div class="school__center">
 			<h2 class="school__sub-title" data-aos="fade-down" data-aos-duration=1500>불이 켜진 학교 입구다.<br/>
-            강의싷, 행정실, 2층,,, 어디부터 가볼까
+			강의실, 행정실, 2층,,, 어디부터 가볼까
 			</h2>
 			<div class="school__btns school__1F__btns">
 				<button onclick="location.href='school__07-class.jsp'" data-aos="fade-up" data-aos-duration=1500>강의실</button>
